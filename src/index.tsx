@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import serviceWorker from './services/serviceWorker';
+import serviceWorker from './serviceWorker';
 
 //components #653390
 import App from './App';
@@ -18,4 +18,4 @@ render(
 
 
 //register service worker
-serviceWorker();
+serviceWorker()
